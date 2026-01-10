@@ -6,7 +6,7 @@ import Home from './pages/Home';
 const App = () => {
    useEffect(() => {
      AOS.init({
-       duration: 1000, // Optional: animation duration in milliseconds
+       duration: 1500, // Optional: animation duration in milliseconds
        once: false, // Optional: whether animation should happen only once
      });
    }, []);

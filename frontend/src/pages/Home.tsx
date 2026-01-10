@@ -1,10 +1,10 @@
 import Hero from "../components/hero/Hero"
-import ProjectGrid from "../components/hoverGrid/ProjectGrid";
+import Services from "../components/hoverGrid/Service";
 const Home = () => {
   return (
     <div>
       <Hero />
-      <ProjectGrid/>
+      <Services/>
     </div>
   );
 }
