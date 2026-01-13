@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Teck = () => {
+const CaseStudy = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Teck = () => {
   )
 }
 
-export default Teck
+export default CaseStudy

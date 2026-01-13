@@ -1,12 +1,18 @@
 import React from "react";
 import HoverCard from "./HoverCard";
-
+import explore_img_1 from "../../assets/nature-laptop1.png"
+import explore_img from "../../assets/nature-laptop2.png"
 const ServiceGrid
 : React.FC = () => {
     return (
-      <section className="my-[15em] flex">
-        <div className="flex-1"></div>
-        <div className="flex-2">
+      <section className="my-[10em] flex justify-center relative">
+        {/* <div className="flex-1"></div> */}
+        <img
+          src={explore_img}
+          alt=""
+          className="max-w-[30em] absolute -top-[12em] right-[2em]"
+        />
+        <div className="flex-2 max-w-200">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-2 p-6 auto-rows-[200px]">
             {/* Hero Card */}
             <div className="col-span-2 row-span-2" data-aos="zoom-in-right">
@@ -23,14 +29,14 @@ const ServiceGrid
                 imageUrl="https://images.unsplash.com/photo-1763641302132-d27dad02a19a"
               />
             </div>
-            <div className="" data-aos="fade-left">
+            <div className="" data-aos="fade-up-left">
               <HoverCard
                 title="Web Design"
                 description="Design modern, responsive websites that balance aesthetics with usability."
                 imageUrl="https://plus.unsplash.com/premium_photo-1762927744544-f1ef4eb5951b"
               />
             </div>
-            <div className="col-span-3" data-aos="zoom-out-up">
+            <div className="col-span-3" data-aos="fade-up-left">
               <HoverCard
                 title="Software Design & Development With AI Intergrations"
                 description="Build intelligent software solutions powered by AI. From automation to predictive analytics, we integrate cutting-edge machine learning into your workflows to unlock efficiency and innovation"
@@ -39,6 +45,11 @@ const ServiceGrid
             </div>
           </div>
         </div>
+        <img
+          src={explore_img_1}
+          alt=""
+          className="max-w-[30em] absolute -bottom-[12em] left-[2em]"
+        />
       </section>
     );
 };
