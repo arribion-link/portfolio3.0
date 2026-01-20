@@ -1,6 +1,4 @@
 import hero_image from "../../assets/hero-stoic-head.webp"
-import hero_small_image from "../../assets/hero-small-image.png";
-import hero_small_image_2 from "../../assets/hero-small-image-2.png";
 import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -24,21 +22,6 @@ const Hero = () => {
 
   return (
     <section className="mt-[1em] min-h-[85vh] mx-4 relative">
-      {/* <img
-        src={hero_small_image}
-        alt=""
-        className="-left-8 -top-8 max-w-[10em] absolute "
-      /> */}
-      <img
-        src={hero_small_image_2}
-        alt=""
-        className="-left-1 -top-17 max-w-[8em] absolute "
-      />
-      <img
-        src={hero_small_image}
-        alt=""
-        className="-right-8 -top-8 max-w-[10em] absolute "
-      />
       <h1 className="text-[clamp(2em,10vw,5em)] text-slate-50 text-center font-bold">
         SOTWARE DEVELOPER
       </h1>
@@ -50,9 +33,14 @@ const Hero = () => {
       <img
         src={hero_image}
         alt="hero image"
-        className=" absolute right-[2em] md:right-[17em] top-[16em] md:-top-[0.51em] max-w-[25em] md:max-w-[19em] z-10"
+        // copilot help make the over transition smooth with drop shadow
+        className="filter drop-shadow-2xl hover:drop-shadow-purple-700/20 ease-in-out duration-1000 absolute right-[2em] md:right-[22em] top-[16em] md:-top-[0.51em] max-w-[22em] md:max-w-[19em] z-10"
         data-aos="zoom-in"
       />
+      <h1 className="absolute right-1 bottom-4 text-end font-bold text-slate-700 flex-2  ">
+        I believe the best digital products emerge from a <br /> deep
+        understanding of both user needs <br /> and technical possibilities.
+      </h1>
     </section>
   );
 };

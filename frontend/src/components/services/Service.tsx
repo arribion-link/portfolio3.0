@@ -22,14 +22,14 @@ const ServiceGrid
                 imageUrl="https://images.unsplash.com/photo-1764957078063-887a403c681c"
               />
             </div>
-            <div className="col-span-2" data-aos="zoom-out-up">
+            <div className="col-span-2 sm:col-span- 3" data-aos="zoom-out-up">
               <HoverCard
                 title="Cross-Platform Mobile develoment (Flutter / React Native)"
                 description="Deliver seamless mobile experiences across iOS and Android. I create fast, scalable apps that feel native and keep users engaged everywhere."
                 imageUrl="https://images.unsplash.com/photo-1763641302132-d27dad02a19a"
               />
             </div>
-            <div className="" data-aos="fade-up-left">
+            <div className="md:cols-span-3" data-aos="fade-up-left">
               <HoverCard
                 title="Web Design"
                 description="Design modern, responsive websites that balance aesthetics with usability."

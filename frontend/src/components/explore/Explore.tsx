@@ -1,18 +1,18 @@
 import ScrollVelocity from "../ScrollVelocity";
-import ExploreNavigation from "./ExploreNavigation";
+// import ExploreNavigation from "./ExploreNavigation";
 import stark_image_1 from "../../assets/spark-1.png";
-const velocity = 20;
 const Explore = () => {
+  const velocity = 20;
   return (
-    <section className="min-h-[150vh]">
+    <section className="min-h-[90vh] mx-4">
       <ScrollVelocity
-        texts={["", "JEFF - FULLSTACK - DEVELOPER - & - DESIGNER"]}
+        texts={["", "FULLSTACK - DEVELOPER - DESIGNER - "]}
         velocity={velocity}
         className=" text-slate-500"
       />
       <div className="mt-10">
         <h1 className="text-[clamp(2em,10vw,4em)] text-slate-700 font-bold py-2 text-center">
-          EXPLORE
+          ABOUT ME
         </h1>
         <div>
           <div>
@@ -30,10 +30,10 @@ const Explore = () => {
             <img
               src={stark_image_1}
               alt=""
-              className="absolute max-w-[20em] right-0"
+              className="absolute max-w-[15em] -right-4"
             />
-            <ExploreNavigation />
-            <div className="min-h-[70vh]"></div>
+            {/* <ExploreNavigation /> */}
+           
           </div>
         </div>
       </div>
