@@ -17,13 +17,13 @@ const testimonials: testimonialProps[] = [
   },
   {
     id: 4,
-    name: "Tifany Nyawira",
-    occuption: "Software Engineer/Technical Trainer(Teach2Give)",
+    name: "Peter Wanga",
+    occuption: "AI/ML Engineer",
   },
   {
     id: 11,
     name: "Martin",
-    occuption: "Web Developer",
+    occuption: "Accountat",
   },
   {
     id: 12,

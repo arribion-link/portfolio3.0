@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 // import "./testimonial.css"
 const Testimonials = () => {
   return (
-    <section className="my-20 px-4 min-h-[75vh] ">
+    <section className="my-20 px-4 min-h-[55vh] ">
       <h1 className="text-center text-slate-800 text-[clamp(1em,4vw,2.5em)] ">
         WHAT PEOPLE SAY ABOUT ME
       </h1>

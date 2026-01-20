@@ -1,6 +1,3 @@
-// import req_biz_plan from "../assets/process/requirement-business-plan.png";
-// import design_img from "../assets/process/design.png";
-
 const Process = () => {
   return (
     <section className="min-h-screen mx-8">
