@@ -33,7 +33,7 @@ const Hero = () => {
       <img
         src={hero_image}
         alt="hero image"
-        className="filter drop-shadow-2xl hover:drop-shadow-purple-700/20 ease-in-out duration-1000 absolute right-[2em] md:right-[22em] top-[10em] md:-top-[0.51em] max-w-[20em] md:max-w-[19em] z-10"
+        className="filter drop-shadow-2xl hover:drop-shadow-purple-700/20 ease-in-out duration-1000 absolute right-[1em] md:right-[22em] top-[10em] md:-top-[0.51em] max-w-[20em] md:max-w-[19em] z-10"
         data-aos="zoom-in"
       />
       <h1 className="absolute  right-1 -bottom-4 md:bottom-4 text-end font-bold text-slate-700 flex-2  ">
