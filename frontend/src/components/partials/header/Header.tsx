@@ -5,7 +5,6 @@ import {
   FaGithub,
   FaReact,
   FaTwitter,
-  FaYoutube,
 } from "react-icons/fa";
 import { useState } from "react";
 // import { IoIosArrowDown } from "react-icons/io";
@@ -32,10 +31,10 @@ const Header = () => {
         <Link to="/">
           <div className="flex gap-2 items-center">
             <FaReact size={40} className="font-extrabold animate -spin" />
-            <h1 className="font-bold text-2xl">NTONGAI JEFF</h1>
+            <h1 className="font-bold text-2xl">JEFF</h1>
           </div>
         </Link>
-        <ul className="navLinks md:flex gap-8 hidden">
+        <ul className="navLinks md:flex gap-6 hidden">
           {navLinks.map((link) => (
             <li key={link.name} className="hover:text-slate-300">
               <Link to={link.path} className="relative  text-blue-400 font-bold transition-colors duration-300 hover:text-white
@@ -46,9 +45,6 @@ const Header = () => {
           ))}
         </ul>
         <div className="text-white gap-4 md:flex hidden">
-          <div>
-            <FaYoutube size={20} className="hover:text-red-600" />
-          </div>
           <div>
             <FaGithub size={20} className="hover:text-gray-400" />
           </div>

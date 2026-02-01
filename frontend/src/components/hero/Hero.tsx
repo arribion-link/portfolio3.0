@@ -22,7 +22,7 @@ const Hero = () => {
 
   return (
     <section className="mt-[1em] min-h-[85vh] mx-4 relative">
-      <h1 className="text-[clamp(2em,10vw,5em)] text-slate-50 text-center font-bold">
+      <h1 className="text-[clamp(2em,10vw,5em)] text-slate-50 text-start md:text-center font-bold">
         SOTWARE DEVELOPER
       </h1>
       <div>
@@ -34,12 +34,13 @@ const Hero = () => {
         src={hero_image}
         alt="hero image"
         // copilot help make the over transition smooth with drop shadow
-        className="filter drop-shadow-2xl hover:drop-shadow-purple-700/20 ease-in-out duration-1000 absolute right-[2em] md:right-[22em] top-[16em] md:-top-[0.51em] max-w-[22em] md:max-w-[19em] z-10"
+        className="filter drop-shadow-2xl hover:drop-shadow-purple-700/20 ease-in-out duration-1000 absolute right-[2em] md:right-[22em] top-[10em] md:-top-[0.51em] max-w-[22em] md:max-w-[19em] z-10"
         data-aos="zoom-in"
       />
-      <h1 className="absolute right-1 bottom-4 text-end font-bold text-slate-700 flex-2  ">
-        I believe the best digital products emerge from a <br /> deep
-        understanding of both user needs <br /> and technical possibilities.
+      <h1 className="absolute  right-1 -bottom-4 md:bottom-4 text-end font-bold text-slate-700 flex-2  ">
+        I believe the best digital products emerge from a{" "}
+        <br className="hidden md:block" /> deep understanding of both user needs{" "}
+        <br className="hidden md:block" /> and technical possibilities.
       </h1>
     </section>
   );

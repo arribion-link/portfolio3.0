@@ -2,7 +2,7 @@ import ScrollVelocity from "../ScrollVelocity";
 const Explore = () => {
   const velocity = 20;
   return (
-    <section className="min-h-[110vh] mt-[20em] mx-4">
+    <section className=" min-h-[80vh] md:min-h-[110vh] mt-[5em] md:mt-[20em] mx-4">
       <ScrollVelocity
         texts={["", " DEVELOPER - DESIGNER - "]}
         velocity={velocity}
@@ -12,7 +12,7 @@ const Explore = () => {
         <h1 className="text-[clamp(2em,10vw,4em)] text-slate-700 font-bold py-2 text-center">
           ABOUT ME
         </h1>
-        <div className="flex items-end justify-between">
+        <div className="flex flex-col md:flex-row items-end justify-between">
           <div className="text-start text-slate-300 flex-1">
             <img
               src=""

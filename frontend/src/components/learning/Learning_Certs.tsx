@@ -2,7 +2,7 @@ import plp_cert from "../../assets/certs/plp-cert.png"
 import simplilearn_cert from "../../assets/certs/simplilearn.png"
 const Learning_Certs = () => {
   return (
-    <section className="my-20 px-4 min-h-screen">
+    <section className="my-20 mx-4 px-4 min-h-screen">
       <h1 className="font-bold text-center text-slate-800 text-[clamp(1.5rem,4vw,2.5rem)]">
         LEARNING CERTIFICATIONS
       </h1>
@@ -11,18 +11,59 @@ const Learning_Certs = () => {
       </p>
       <div className="flex justify-center">
         {/* Certification items will go here */}
-        <div className="flex flex-wrap gap-4">
-          <div>
-            <img src={plp_cert} alt="" className="max-w-[15em] hover:scale-100" />
-          </div>
-          <div>
-            <img src={simplilearn_cert} alt="" className="max-w-[15em] " />
-          </div>
-          <div>
-            <img src={plp_cert} alt="" className="max-w-[15em] " />
-          </div>
-          <div>
-            <img src={simplilearn_cert} alt="" className="max-w-[15em] " />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-4">
+            <div className="w-full flex items-center justify-center p-2 bg-white/0 rounded">
+              <img
+                src={simplilearn_cert}
+                alt="Simplilearn certificate"
+                loading="lazy"
+                className="w-full h-auto "
+              />
+            </div>
+
+            <div className="w-full flex items-center justify-center p-2 bg-white/0 rounded">
+              <img
+                src={plp_cert}
+                alt="PLP certificate"
+                loading="lazy"
+                className="w-full h-auto "
+              />
+            </div>
+            <div className="w-full flex items-center justify-center p-2 bg-white/0 rounded">
+              <img
+                src={simplilearn_cert}
+                alt="Simplilearn certificate"
+                loading="lazy"
+                className="w-full h-auto "
+              />
+            </div>
+
+            <div className="w-full flex items-center justify-center p-2 bg-white/0 rounded">
+              <img
+                src={plp_cert}
+                alt="PLP certificate"
+                loading="lazy"
+                className="w-full h-auto "
+              />
+            </div>
+            <div className="w-full flex items-center justify-center p-2 bg-white/0 rounded">
+              <img
+                src={simplilearn_cert}
+                alt="Simplilearn certificate"
+                loading="lazy"
+                className="w-full h-auto "
+              />
+            </div>
+
+            <div className="w-full flex items-center justify-center p-2 bg-white/0 rounded">
+              <img
+                src={plp_cert}
+                alt="PLP certificate"
+                loading="lazy"
+                className="w-full h-auto "
+              />
+            </div>
           </div>
         </div>
       </div>

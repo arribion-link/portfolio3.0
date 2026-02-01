@@ -1,8 +1,8 @@
 
 const Projects = () => {
   return (
-    <section className="mx-4 my-[5em] ">
-      <h1 className="text-[clamp(2em,10vw,4em)] text-slate-700 font-bold py-2 text-end">
+    <section className="mx-4 my-[3em] ">
+      <h1 className="text-[clamp(1em,10vw,4em)] text-slate-700 font-bold py-2 text-start md:text-end">
         FEATURED PROJECTS
       </h1>
       <div className="grid md:grid-cols-2 gap-4">
