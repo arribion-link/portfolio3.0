@@ -29,9 +29,9 @@ const Header = () => {
     <header className="text-slate-50 p-4">
       <nav className="flex justify-between items-center">
         <Link to="/">
-          <div className="flex gap-2 items-center">
-            <FaReact size={40} className="font-extrabold animate -spin" />
-            <h1 className="font-bold text-2xl">JEFF</h1>
+          <div className="flex gap-2 items-center border-2 px-4 py-1 rounded border-white">
+            <FaReact size={20} className="font-extrabold animate-spin" />
+            <h1 className="font-bold text-[14px] ">JEFF</h1>
           </div>
         </Link>
         <ul className="navLinks md:flex gap-6 hidden">
