@@ -1,4 +1,4 @@
-import hero_image from "../../assets/hero-stoic-head.webp"
+import hero_image from "../../assets/hero.png"
 import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
