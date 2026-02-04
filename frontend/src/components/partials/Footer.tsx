@@ -18,7 +18,7 @@ const Footer = () => {
             alt=""
             className="min-h-30 min-w-30 rounded bg-slate-800"
           />
-          <h1>JEFF MUTETHIA</h1>
+          <h1>JEREMIAH NDERITU</h1>
           <p>BSC. SOFTWARE ENGINEERING</p>
           <p>KIRINYAGA UNIVERSITY</p>
         </div>
@@ -36,7 +36,7 @@ const Footer = () => {
         </ul>
       </div>
       <ScrollVelocity
-        texts={["", "JEFF - MUTETHIA - NTONGAI -"]}
+        texts={["", "JEREMIAH - NDERITU - BACKEND - DEVELOPER"]}
         velocity={Velocity}
         className=" text-slate-500"
       />

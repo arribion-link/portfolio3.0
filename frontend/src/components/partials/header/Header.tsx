@@ -31,7 +31,7 @@ const Header = () => {
         <Link to="/">
           <div className="flex gap-2 items-center border-2 px-4 py-1 rounded border-white">
             <FaReact size={20} className="font-extrabold animate-spin" />
-            <h1 className="font-bold text-[14px] ">JEFF</h1>
+            <h1 className="font-bold text-[14px] ">NDERITU</h1>
           </div>
         </Link>
         <ul className="navLinks md:flex gap-6 hidden">

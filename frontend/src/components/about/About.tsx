@@ -4,7 +4,7 @@ const Explore = () => {
   return (
     <section className=" min-h-[80vh] md:min-h-[110vh] mt-[5em] md:mt-[20em] mx-4">
       <ScrollVelocity
-        texts={["", " DEVELOPER - DESIGNER - "]}
+        texts={["", " DEVELOPER - BACKEND - DEVELOPER - "]}
         velocity={velocity}
         className=" text-slate-500"
       />
@@ -19,7 +19,7 @@ const Explore = () => {
               alt=""
               className="min-h-30 min-w-30 rounded bg-slate-800"
             />
-            <h1>JEFF MUTETHIA</h1>
+            <h1>JEREMIAH NDERITU</h1>
             <p>BSC. SOFTWARE ENGINEERING</p>
             <p>KIRINYAGA UNIVERSITY</p>
           </div>
